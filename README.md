@@ -109,6 +109,7 @@ Network requests are handled using **Retrofit** to interact with the IGDB API fo
 
 Here's an overview of the project's directory structure:
 
+```bash
 src
 │   ├───main
 │   │   │   AndroidManifest.xml
@@ -141,6 +142,7 @@ src
 │   │   │	              │
 │   │   │	              └───viewmodel
 │   │   │	              	      GameListViewModel.kt
+```
 
 ### Core Components
 
