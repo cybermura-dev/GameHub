@@ -122,6 +122,7 @@ src
 │   │   │	              │
 │   │   │	              ├───adapters
 │   │   │	              |        GameAdapter.kt
+│   │   │	              |        GameDiffCallback.kt
 │   │   │	              │
 │   │   │	              ├───data
 │   │   │	              │	      GameRepository.kt
