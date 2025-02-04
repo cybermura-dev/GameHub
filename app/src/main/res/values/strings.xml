@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GameHub</string>
+
+    <string name="logo_app_desc">GameHub Logo</string>
+
+    <string name="hint_search_games">Search games</string>
+    <string name="btn_previous">Previous</string>
+    <string name="btn_next">Next</string>
+    <string name="current_page">1/10</string>
+
+    <string name="rating_format">%.1f/5</string>
+    <string name="tv_release_date">Release Date</string>
+    <string name="tv_platforms">Platforms</string>
+</resources>

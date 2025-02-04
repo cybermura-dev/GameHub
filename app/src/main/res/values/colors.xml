@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#FF6441A4</color>
+    <color name="disabled_color">#FFBDBDBD</color>
+    <color name="text_primary">#FF333333</color>
+    <color name="text_secondary">#FF666666</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="semi_gray">#80333333</color>
+    <color name="light_gray">#FFE5E5E5</color>
+    <color name="gold">#FFFFC107</color>
+    <color name="gray">#FF333333</color>
+</resources>
