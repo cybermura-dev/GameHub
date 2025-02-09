@@ -110,39 +110,37 @@ Network requests are handled using **Retrofit** to interact with the IGDB API fo
 Here's an overview of the project's directory structure:
 
 ```bash
-src
-│   ├───main
-│   │   │   AndroidManifest.xml
-│   │   │
-│   │   ├───java
-│   │   │   └───ru
-│   │   │	      └───takeshiko
-│   │   │	          └───gamehub
-│   │   │	              │   RetrofitClient.kt
-│   │   │	              │
-│   │   │	              ├───adapters
-│   │   │	              |        GameAdapter.kt
-│   │   │	              |        GameDiffCallback.kt
-│   │   │	              │
-│   │   │	              ├───data
-│   │   │	              │	      GameRepository.kt
-│   │   │	              │
-│   │   │	              ├───models
-│   │   │	              │	      Cover.kt
-│   │   │	              │	      Game.kt
-│   │   │	              │	      Platform.kt
-│   │   │	              │
-│   │   │	              ├───network
-│   │   │	              │	      IGDBApiService.kt
-│   │   │	              │	      RetrofitClient.kt
-│   │   │	              │
-│   │   │	              ├───ui
-│   │   │	              │	      GameDetailsActivity.kt
-│   │   │	              │	      HomeActivity.kt
-│   │   │	              │	      SplashActivity.kt
-│   │   │	              │
-│   │   │	              └───viewmodel
-│   │   │	              	      GameListViewModel.kt
+src/
+├── main/
+│   ├── AndroidManifest.xml          # Android Manifest file
+│   ├── java/
+│   │   └── ru/
+│   │       └── takeshiko/
+│   │           └── gamehub/
+│   │               ├── adapters/   # Adapters for RecyclerViews
+│   │               │   ├── GameAdapter.kt
+│   │               │   └── GameDiffCallback.kt
+│   │               │
+│   │               ├── data/       # Data handling (repositories, data sources)
+│   │               │   └── GameRepository.kt
+│   │               │
+│   │               ├── models/     # Data models representing entities
+│   │               │   ├── Cover.kt
+│   │               │   ├── Game.kt
+│   │               │   └── Platform.kt
+│   │               │
+│   │               ├── network/    # Network layer, API calls and retrofit client
+│   │               │   ├── IGDBApiService.kt
+│   │               │   └── RetrofitClient.kt
+│   │               │
+│   │               ├── ui/         # UI components (activities, fragments)
+│   │               │   ├── GameDetailsActivity.kt
+│   │               │   ├── HomeActivity.kt
+│   │               │   └── SplashActivity.kt
+│   │               │
+│   │               └── viewmodel/  # ViewModel layer for UI data management
+│   │                   └── GameListViewModel.kt
+└── res/                             # Application resources (layout, values, etc.)
 ```
 
 ### Core Components
