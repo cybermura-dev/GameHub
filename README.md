@@ -236,4 +236,6 @@ The **IGDB API** is used to fetch game data, including names, covers, ratings, s
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/takeshikodev/GameHub/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2025 Takeshiko 
