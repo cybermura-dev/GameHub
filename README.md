@@ -58,7 +58,7 @@ Ensure the following tools and SDKs are installed before setting up the project:
 
 1. **Clone the Repository:**
      ```bash
-     git clone https://github.com/takeshikodev/GameHub.git
+     git clone https://github.com/cybermura-dev/GameHub.git
      cd GameHub
      ```
 
@@ -238,4 +238,4 @@ The **IGDB API** is used to fetch game data, including names, covers, ratings, s
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) 2025 Takeshiko 
+Copyright (c) 2025 cybermura
